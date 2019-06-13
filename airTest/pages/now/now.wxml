@@ -1,0 +1,76 @@
+<view class="page">
+
+  <!-- <view class='page-upper'>
+      <view class='page-upper-main'>
+      <view class="formaldehyde-name">甲醛</view>
+      <view class="formaldehyde-dose">{{formaldehyde}}</view>
+      <view class="formaldehyde-unit">mg/m3</view>
+      <view class="formaldehyde-notice">{{quality}}</view>
+      </view>
+  </view>
+ <view class='page-middle'>其他数据</view>
+  <view class='page-lower'>
+    <view class='page-lower_row1'>
+        <view class='page-lower-left'>
+      <view class='temperature-upper'></view>
+      <view class='temperature-middle'><view class='name'>
+      <image src="../../images/temperature.png" style="margin-right: 5px;vertical-align: middle;width:17px; height: 17px;"></image>
+      温度(℃) </view><view class='number'>{{temperature}}</view></view>
+      <view class='temperature-lower'></view>
+      </view>
+
+    <view class='page-lower-right'>
+      <view class='humidity-upper'></view>
+      <view class='humidity-middle'><view class='name'>
+       <image src="../../images/humidity.png" style="margin-right: 3px;vertical-align: middle;width:17px; height: 17px;"></image>
+      湿度(%RH)</view><view class='number'>{{humidity}}</view></view>
+      <view class='humidity-lower'></view>
+    </view>
+    </view>
+
+
+  </view> -->
+  <view class='logo-title'>
+    <view class='logo'>
+      <image class='image' src="../../images/logo.png" style="margin-right: 5px;vertical-align: middle;width:100rpx; height: 100rpx;"></image>
+    </view>
+    <view class='title'>数据详情</view>
+  </view>
+  <view class='page-show-box'>
+    <view class='show-box box-one'>
+      <view class='name'>
+        <image src="../../images/formaldehyde.png" style="margin-right: 5px;vertical-align: middle;width:25px; height: 25px;"></image>
+        <view class="formaldehyde-name" style="height:25px;">甲醛(mg/m3)</view>
+      </view>
+      <view class='number'>
+        <view class="formaldehyde-dose">{{formaldehyde}}</view>
+      </view>
+
+    </view>
+    <view class='show-box box-two'>
+      <view class='name'>
+        <image src="../../images/temperature.png" style="margin-right: 5px;vertical-align: middle;width:25px; height: 25px;"></image>
+        <view>温度(℃)</view>
+      </view>
+      <view class='number'>
+        <view>{{temperature}}</view>
+      </view>
+    </view>
+
+    <view class='show-box box-three'>
+      <view class='name'>
+        <image src="../../images/humidity.png" style="margin-right: 3px;vertical-align: middle;width:25px; height: 25px;"></image>
+        <view style="height:25px;">湿度(%RH)</view>
+      </view>
+      <view class='number'>
+        <view>{{humidity}}</view>
+      </view>
+    </view>
+  </view>
+   <view class='quality'>
+ 甲醛浓度：{{quality}}
+ </view>
+ <view class='notice'>
+ 室内空气质量标准:HCHO{{compare}}0.08mg/m3
+ </view>
+</view>

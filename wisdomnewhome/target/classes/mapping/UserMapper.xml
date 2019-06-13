@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wisdom.dao.UserMapper">
+	
+	<resultMap type="com.wisdom.bean.User" id="UserResultMap">
+		<result column="user_id" property="userId" jdbcType="VARCHAR"/>
+		<result column="version" property="version" jdbcType="VARCHAR"/>
+		<result column="pdate" property="pDate" jdbcType="DATE"/>
+		<result column="osversion" property="osVersion" jdbcType="VARCHAR"/>
+	</resultMap>
+	<!-- 查询用户密码进行登陆验证 -->
+	<!-- 查詢設備詳情  userId 查詢-->
+	<!-- 二次校驗登陸 -->
+	<select id="selectUserById" resultType="com.wisdom.bean.User" parameterType="String">
+	SELECT 
+	*
+	FROM user 
+	WHERE
+	user_id = #{userId} 	
+	</select>
+	
+	
+	<select id="queryUserById" resultType="com.wisdom.bean.User" parameterType="com.wisdom.bean.User">
+		SELECT
+		user_id AS userId
+		user_name AS userName
+		FROM
+		user 
+		<where>
+			<if test="userId != null">
+				user_id = #{userId} 
+			</if>		
+		</where>
+	</select>
+	
+
+
+
+	<!-- 修改用戶信息 -->
+	<update id="update" parameterType="String">
+        UPDATE user
+		SET password = #{password}
+        WHERE user_id = #{userId}
+    </update>
+    
+    
+    
+    <!-- 修改用戶信息 parameter -->
+	<update id="updataById" parameterType="com.wisdom.bean.User">
+        UPDATE user
+       <trim prefix="set" suffixOverrides="," >
+        <if test="userName!=null">
+            user_name = #{userName} ,
+        </if>
+        <if test="password!=null">
+            password = #{password},
+        </if>
+		</trim>
+        WHERE user_id  = #{userId}
+    </update>
+    	<!-- 增加用户 进行注册 -->
+    <insert id="registerByUsernameAndPassword">
+         insert into user (user_id,password)
+        values (#{user_id},#{password})
+    </insert>
+    
+
+
+</mapper>
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#37373b",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "空气实时质量",
+    "backgroundColor": "#efeff4",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+}

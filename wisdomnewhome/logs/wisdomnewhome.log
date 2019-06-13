@@ -1,0 +1,250 @@
+2018-05-12 16:18:55.798 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 16:18:56.464 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 16:18:56.566 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 16:18:56.633 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 16:18:56.651 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 16:18:57.626 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-10010, pstmt-20010} enter cache
+2018-05-12 16:18:57.635 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-10010, pstmt-20011} enter cache
+2018-05-12 16:18:57.720 DEBUG [Thread-1]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-10010, pstmt-20010} exit cache
+2018-05-12 16:18:57.722 DEBUG [Thread-1]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-10010, pstmt-20011} exit cache
+2018-05-12 16:18:57.724 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 19:45:38.245 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 19:45:38.888 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 19:45:38.979 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 19:45:39.047 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 19:45:39.074 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 19:45:39.982 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-2} inited
+2018-05-12 19:45:40.212 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-3} inited
+2018-05-12 19:45:40.389 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-210010, pstmt-220010} enter cache
+2018-05-12 19:45:40.576 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-4} inited
+2018-05-12 19:45:40.653 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-210010, pstmt-220011} enter cache
+2018-05-12 19:45:40.654 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 19:45:40.657 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 19:45:40.808 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-5} inited
+2018-05-12 19:45:40.851 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-410010, pstmt-420010} enter cache
+2018-05-12 19:45:40.858 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-410010, pstmt-420011} enter cache
+2018-05-12 19:45:40.888 DEBUG [Thread-4]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-210010, pstmt-220010} exit cache
+2018-05-12 19:45:40.890 DEBUG [Thread-4]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-210010, pstmt-220011} exit cache
+2018-05-12 19:45:40.896 INFO  [Thread-4]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-3} closed
+2018-05-12 19:45:40.899 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 19:46:26.841 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 19:46:27.512 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 19:46:27.612 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 19:46:27.674 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 19:46:27.690 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 19:46:27.919 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-2} inited
+2018-05-12 19:46:28.077 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120010} enter cache
+2018-05-12 19:46:28.264 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-3} inited
+2018-05-12 19:46:28.364 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120011} enter cache
+2018-05-12 19:46:28.365 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 19:46:28.373 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 19:46:28.529 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-4} inited
+2018-05-12 19:46:28.593 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-310010, pstmt-320010} enter cache
+2018-05-12 19:46:28.608 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120010} exit cache
+2018-05-12 19:46:28.609 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120011} exit cache
+2018-05-12 19:46:28.611 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-2} closed
+2018-05-12 20:15:30.352 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:15:30.983 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:15:31.073 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:15:31.140 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:15:31.160 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:15:32.054 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 20:16:36.153 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:16:36.775 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:16:36.865 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:16:36.934 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:16:36.947 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:16:37.732 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 20:16:45.321 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:16:46.020 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:16:46.138 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:16:46.231 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:16:46.248 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:16:47.316 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 20:16:56.188 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:16:56.884 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:16:56.992 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:16:57.069 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:16:57.086 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:18:25.440 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:18:26.082 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:18:26.175 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:18:26.240 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:18:26.254 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:18:27.059 INFO  [main]com.wisdom.controller.DataController.selectNewData
+:72 -Áî®Êà∑ËÆæÂ§áÔºö12001Êü•ËØ¢ÊúÄÊñ∞Êï∞ÊçÆ
+2018-05-12 20:18:27.203 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-10010, pstmt-20010} enter cache
+2018-05-12 20:18:27.205 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -ÂΩìÂâçÁ©∫Ê∞îË¥®ÈáèÊåáÊï∞‰∏∫ËàíÈÄÇ
+2018-05-12 20:18:27.288 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-10010, pstmt-20010} exit cache
+2018-05-12 20:18:27.290 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 20:22:50.072 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:22:50.794 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:22:50.911 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:22:50.996 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:22:51.014 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:22:59.717 WARN  [main]com.wisdom.controller.DataController.selectNewData
+:77 -Êú™ËÉΩÊâæÂà∞Êü•ËØ¢Êñ∞Êï∞ÊçÆ‰ø°ÊÅØÁöÑsession‰ºöËØù
+2018-05-12 20:29:28.367 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:29:28.987 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:29:29.080 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:29:29.151 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:29:29.165 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:29:29.982 WARN  [main]com.wisdom.controller.DataController.selectNewData
+:78 -Êú™ËÉΩÊâæÂà∞Êü•ËØ¢Êñ∞Êï∞ÊçÆ‰ø°ÊÅØÁöÑsession‰ºöËØù
+2018-05-12 20:29:30.048 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-1} closed
+2018-05-12 20:31:55.659 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:31:56.308 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:31:56.414 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:31:56.476 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:31:56.490 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:31:56.792 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-2} inited
+2018-05-12 20:31:57.024 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120010} enter cache
+2018-05-12 20:31:57.217 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-3} inited
+2018-05-12 20:31:57.310 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120011} enter cache
+2018-05-12 20:31:57.311 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 20:31:57.317 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 20:31:57.553 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-4} inited
+2018-05-12 20:31:57.621 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-310010, pstmt-320010} enter cache
+2018-05-12 20:31:57.652 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-310010, pstmt-320011} enter cache
+2018-05-12 20:31:57.662 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120010} exit cache
+2018-05-12 20:31:57.663 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120011} exit cache
+2018-05-12 20:31:57.664 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-2} closed
+2018-05-12 20:48:19.925 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation
+:128 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-05-12 20:48:20.542 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-1} inited
+2018-05-12 20:48:20.639 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:427 -Parsed configuration file: 'class path resource [config/mybatis-config.xml]'
+2018-05-12 20:48:20.702 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\DataMapper.xml]'
+2018-05-12 20:48:20.717 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory
+:468 -Parsed mapper file: 'file [D:\WorkProgram\226\_java_dev_env\_java_dev_env\workspace\wisdomnewhome\target\classes\mapping\UserMapper.xml]'
+2018-05-12 20:48:20.957 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-2} inited
+2018-05-12 20:48:21.104 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120010} enter cache
+2018-05-12 20:48:21.286 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-3} inited
+2018-05-12 20:48:21.373 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-110010, pstmt-120011} enter cache
+2018-05-12 20:48:21.374 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 20:48:21.380 INFO  [main]com.wisdom.service.impl.DataServiceImpl.selectNewData
+:88 -µ±«∞ø’∆¯÷ ¡ø÷∏ ˝Œ™ Ê  
+2018-05-12 20:48:21.548 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init
+:722 -{dataSource-4} inited
+2018-05-12 20:48:21.604 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-310010, pstmt-320010} enter cache
+2018-05-12 20:48:21.618 DEBUG [main]com.alibaba.druid.pool.PreparedStatementPool.put
+:123 -{conn-310010, pstmt-320011} enter cache
+2018-05-12 20:48:21.635 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120010} exit cache
+2018-05-12 20:48:21.635 DEBUG [Thread-3]com.alibaba.druid.pool.PreparedStatementPool.closeRemovedStatement
+:154 -{conn-110010, pstmt-120011} exit cache
+2018-05-12 20:48:21.636 INFO  [Thread-3]com.alibaba.druid.pool.DruidDataSource.close
+:1447 -{dataSource-2} closed

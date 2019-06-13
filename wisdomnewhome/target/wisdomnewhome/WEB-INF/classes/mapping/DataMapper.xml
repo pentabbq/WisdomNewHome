@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wisdom.dao.DataMapper" >
+
+	<resultMap type="java.util.Map" id="lastDataMap">
+		<result column="dataid" property="dataid"/>
+		<result column="temperature" property="temperature"/>
+		<result column="humidity" property="humidity"/>
+		<result column="formaldehyde" property="formaldehyde"/>
+		<result column="ddate" property="ddate"/>
+	</resultMap>
+	
+	<!-- 查出历史的数据，默认前五 -->
+	<select id="selectLastData" resultMap="lastDataMap" parameterType="java.util.Map">
+	SELECT data_id,temperature,humidity,formaldehyde,ddate,user_id FROM datadetail
+	WHERE user_id = #{userId}
+	ORDER BY ddate desc
+	LIMIT 0,5
+	</select>
+
+	<!-- 查出最新的数据，显示出来  根據UserId -->
+	<select id="selectNewData" resultMap="lastDataMap" parameterType="java.util.Map">
+	SELECT data_id AS dataId,temperature,humidity,formaldehyde,ddate,user_id
+	FROM datadetail 
+	<where>
+        <if test="userId != null">
+          user_id =  #{userId}
+        </if>
+    </where> 	
+	ORDER BY ddate desc
+	LIMIT 0,1
+	</select>
+
+	<resultMap type="java.util.Map" id="AverageMap">
+		<result column="hour" property="hour"/>
+		<result column="avgdata" property="avg"/>
+	</resultMap>
+
+
+	<!-- 显示某天的甲醛平均数值-->
+	<select id="selectAverageDayData" resultMap="AverageMap" parameterType="java.util.Map">
+	SELECT HOUR(ddate) AS hour,
+	AVG(formaldehyde) AS avg
+	FROM datadetail 
+	WHERE user_id = #{userId}
+    AND ddate BETWEEN concat('${averageDayDate}'," 00:00:00")
+	AND concat('${averageDayDate}'," 23:59:59")
+	GROUP BY
+	HOUR(ddate)
+	</select>
+
+	<!-- 显示某天的甲醛平均数值-->
+	<select id="selectAverageMonthData" resultMap="AverageMap" parameterType="java.util.Map">
+	SELECT DAY(ddate) AS day,
+	AVG(formaldehyde) AS avg
+	FROM datadetail 
+	WHERE user_id = #{userId}
+    AND ddate BETWEEN concat('${beginDate}'," 00:00:00")
+	AND concat('${endDate}'," 23:59:59")
+	GROUP BY
+	DAY(ddate);
+	</select>
+
+
+
+</mapper>
+

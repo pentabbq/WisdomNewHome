@@ -1,0 +1,19 @@
+<view class="page">
+<view class='notice'>日期: {{month}}</view>
+<view>
+ <canvas canvas-id="dayLineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+</view>
+    <view class="page__bd">
+        <picker class="picker start-time" mode="date" value="{{date}}" start="2015-09-01" end="2019-09-01" bindchange="bindDateChange" fields="month">
+          <view class="picker">
+            选择日期: {{dateChosed}}
+          </view>
+        </picker>
+    </view>
+
+ <view class="page__bd page__bd_spacing">
+        <view class="button-sp-area">
+            <button class="weui-btn" type="primary" plain="true" bindtap='serarchNewData'>点击查询</button>
+        </view>
+    </view>
+</view>

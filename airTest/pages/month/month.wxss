@@ -1,0 +1,22 @@
+
+.notice{
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+.canvas {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.date{
+  text-align: center;
+}
+
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 60%;
+}
+.start-time{
+  text-align: center;
+}

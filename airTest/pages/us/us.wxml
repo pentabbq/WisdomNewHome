@@ -1,0 +1,18 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel">
+            <view class="weui-panel__hd">关于我们</view>
+            <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">团队介绍</view>
+                    <view class="weui-media-box__desc">我们是上海海事大学信息与通信系统工程实验室，致力于做最出色的物联网产品</view>
+                    <!-- <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">文字来源</view>
+                        <view class="weui-media-box__info__meta">时间</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息</view>
+                    </view> -->
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="page">
+    <view class="page__bd">
+       
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">系统版本</view>
+                <view class="weui-cell__ft">{{osVersion}}</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">硬件版本</view>
+                <view class="weui-cell__ft">{{version}}</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">设备号</view>
+                <view class="weui-cell__ft">{{userId}}</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">出厂日期</view>
+                <view class="weui-cell__ft">{{pDate}}</view>
+            </view>
+        </view>
+    </view>
+</view>
